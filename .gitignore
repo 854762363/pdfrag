@@ -23,7 +23,6 @@ htmlcov/
 data/chroma/
 data/cache/
 data/uploads/
-data/eval_report.json
 
 # Environment
 .env

@@ -1,0 +1,144 @@
+{
+  "document": "GBT 1568-2008 键 技术条件",
+  "total_questions": 12,
+  "passed": 8,
+  "failed": 4,
+  "avg_keyword_recall": 0.3952,
+  "avg_semantic_similarity": 0.722,
+  "avg_confidence": 0.0,
+  "results": [
+    {
+      "qa_id": "1",
+      "question": "这个标准适用于哪些键？",
+      "ground_truth": "适用于除花键外的各种键。",
+      "llm_answer": "根据文档内容，该标准适用于**平键**（包括A型、B型、C型）、**半圆键**和**导向键**（第1页）。",
+      "keyword_recall": 0.3333,
+      "semantic_similarity": 0.5753,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "2",
+      "question": "键的抗拉强度要求是多少？",
+      "ground_truth": "键的抗拉强度应大于等于 590 MPa。",
+      "llm_answer": "文档中未找到关于键的抗拉强度要求的具体数值。",
+      "keyword_recall": 0.2,
+      "semantic_similarity": 0.731,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": false
+    },
+    {
+      "qa_id": "3",
+      "question": "键表面不允许有哪些缺陷？",
+      "ground_truth": "键表面不允许有裂纹、浮锈、氧化皮和毛刺。",
+      "llm_answer": "根据文档内容，键表面不允许有以下缺陷（第3页）：\n\n1. 裂纹\n2. 毛刺\n3. 锈蚀\n4. 氧化皮\n5. 磕碰伤\n6. 划痕",
+      "keyword_recall": 0.8333,
+      "semantic_similarity": 0.8307,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "4",
+      "question": "A、C型平键的圆角部分有什么要求？",
+      "ground_truth": "A、C型平键、楔键的圆角部分不应有偏斜。对采用冲切工艺的A、C型键，应避免在半圆部分测量其高度。",
+      "llm_answer": "根据文档内容（第3页），A型、C型平键的圆角部分要求如下：\n\n1. **A型平键**：两端圆角半径r应符合GB/T 1095的规定。\n2. **C型平键**：一端圆角半径r应符合GB/T 1095的规定。",
+      "keyword_recall": 0.2857,
+      "semantic_similarity": 0.7164,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": false
+    },
+    {
+      "qa_id": "5",
+      "question": "半圆键的键长两端允许倒成圆角吗？圆角半径范围是多少？",
+      "ground_truth": "允许倒成圆角，圆角半径 0.5 mm ~ 1.5 mm（小键取小值，大键取大值）。",
+      "llm_answer": "根据文档内容（第3页），半圆键的键长两端允许倒成圆角，圆角半径r的范围为**0.5～2.0 mm**。",
+      "keyword_recall": 0.6154,
+      "semantic_similarity": 0.851,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "6",
+      "question": "普通平键的键宽面在长度方向的平行度按什么标准？不同尺寸的级别是什么？",
+      "ground_truth": "按 GB/T 1184 的规定。当 b≤6mm 按 7 级；b=8mm~36mm 按 6 级；b≥40mm 按 5 级。该要求适用于键长与键宽之比 ≥8 的情况。",
+      "llm_answer": "根据文档内容（第3页），普通平键的键宽面在长度方向的平行度要求如下：\n\n1. **标准依据**：按GB/T 1184的规定。\n2. **不同尺寸的级别**：\n   - 当键宽b ≤ 6 mm时，按**7级**。\n   - 当键宽b > 6 mm且≤ 18 mm时，按**6级**。\n   - 当键宽b > 18 mm时，按**5级**。",
+      "keyword_recall": 0.4615,
+      "semantic_similarity": 0.8198,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "7",
+      "question": "楔键斜度 1:100 的角度公差按什么标准？极限偏差如何计算？",
+      "ground_truth": "按 GB/T 11334-2005 中的 AT8 级选取，极限偏差为 ±AT8/2。",
+      "llm_answer": "根据文档内容（第3页），楔键斜度1:100的角度公差按**GB/T 11334**的规定，极限偏差的计算方式为：**斜度1:100的角度公差值等于键宽b的公差值**。",
+      "keyword_recall": 0.4444,
+      "semantic_similarity": 0.6901,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "8",
+      "question": "供需双方同意的情况下，哪些部分允许不倒角？",
+      "ground_truth": "平键、楔键的半圆部分和半圆键的圆弧部分允许不倒角或倒圆，但需去毛刺。",
+      "llm_answer": "根据文档内容（第3页），在供需双方同意的情况下，**键的端部**允许不倒角。",
+      "keyword_recall": 0.1818,
+      "semantic_similarity": 0.7028,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": false
+    },
+    {
+      "qa_id": "9",
+      "question": "键的抗拉强度试验的抽样方案是什么？",
+      "ground_truth": "合格质量水平 AQL 为 1.5，样本为 8，合格判定数为 Ac。",
+      "llm_answer": "文档中未找到关于键的抗拉强度试验抽样方案的相关信息。",
+      "keyword_recall": 0.0,
+      "semantic_similarity": 0.4717,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": false
+    },
+    {
+      "qa_id": "10",
+      "question": "包装箱外表应有哪些标志？",
+      "ground_truth": "a) 制造厂名；b) 产品名称；c) 产品标准规定的标记；d) 产品数量或净重；e) 制造或出厂日期。",
+      "llm_answer": "根据文档内容（第4页），包装箱外表应具有以下标志：\n\n1. 制造厂名称或商标\n2. 产品名称\n3. 产品标准编号\n4. 产品型号或规格\n5. 数量\n6. 出厂日期\n7. 净重和毛重\n8. 收货单位及地址\n9. 运输及储存标志（如【防潮】、【小心轻放】等）",
+      "keyword_recall": 0.6667,
+      "semantic_similarity": 0.7485,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "11",
+      "question": "产品在包装前应如何处理？防锈期要求多长？",
+      "ground_truth": "应涂有防锈剂，在正常运输和保管条件下，保证自出厂之日起一年内不生锈。",
+      "llm_answer": "根据文档内容（第4页），产品在包装前应进行**防锈处理**，防锈期要求为**自出厂之日起一年内**不产生锈蚀。",
+      "keyword_recall": 0.3636,
+      "semantic_similarity": 0.8482,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    },
+    {
+      "qa_id": "12",
+      "question": "本标准与 1997 版相比主要有哪些变化？",
+      "ground_truth": "1) 范围增加【除花键外的各种键】；2) 按 GB/T 1.1 修改规范性引用文件条文；3) 将【裂缝】改为【裂纹】；4) 增加导向键内容；5) 删除端部半圆面积缺陷限制等。",
+      "llm_answer": "根据文档内容（第1页），本标准与1997版相比主要变化如下：\n\n1. 增加了**术语和定义**（第3章）。\n2. 增加了**键的技术要求**（第4章）。\n3. 增加了**键的试验方法**（第5章）。\n4. 增加了**键的检验规则**（第6章）。\n5. 增加了**键的包装、运输和贮存**（第7章）。\n6. 修改了**键的型式尺寸**（第2章）。\n7. 修改了**键的技术条件**（第4章）。\n8. 删除了**键的验收规则**（原1997版第5章）。\n9. 删除了**键的标记方法**（原1997版第6章）。",
+      "keyword_recall": 0.3571,
+      "semantic_similarity": 0.6788,
+      "source_page_match": false,
+      "confidence": 0.0,
+      "passed": true
+    }
+  ],
+  "summary": "文档: GBT 1568-2008 键 技术条件\n总问题数: 12\n通过: 8 | 未通过: 4 | 通过率: 66.7%\n平均关键词召回率: 0.3952\n平均语义相似度: 0.7220\n平均置信度: 0.0000\n\n逐题详情:\n  ✅ Q1 [0.33/0.58] 这个标准适用于哪些键？...\n  ❌ Q2 [0.20/0.73] 键的抗拉强度要求是多少？...\n  ✅ Q3 [0.83/0.83] 键表面不允许有哪些缺陷？...\n  ❌ Q4 [0.29/0.72] A、C型平键的圆角部分有什么要求？...\n  ✅ Q5 [0.62/0.85] 半圆键的键长两端允许倒成圆角吗？圆角半径范围是多少？...\n  ✅ Q6 [0.46/0.82] 普通平键的键宽面在长度方向的平行度按什么标准？不同尺寸的级别是什么？...\n  ✅ Q7 [0.44/0.69] 楔键斜度 1:100 的角度公差按什么标准？极限偏差如何计算？...\n  ❌ Q8 [0.18/0.70] 供需双方同意的情况下，哪些部分允许不倒角？...\n  ❌ Q9 [0.00/0.47] 键的抗拉强度试验的抽样方案是什么？...\n  ✅ Q10 [0.67/0.75] 包装箱外表应有哪些标志？...\n  ✅ Q11 [0.36/0.85] 产品在包装前应如何处理？防锈期要求多长？...\n  ✅ Q12 [0.36/0.68] 本标准与 1997 版相比主要有哪些变化？..."
+}
