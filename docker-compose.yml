@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  pdfrag:
+    build: .
+    container_name: pdfrag
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist Chroma vector DB and uploaded PDFs
+      - ./data/chroma:/app/data/chroma
+      - ./data/uploads:/app/data/uploads
+      - ./data/cache:/app/data/cache
+    environment:
+      - HF_HUB_OFFLINE=1
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_BASE_URL=${LLM_BASE_URL:-https://api.deepseek.com}
+      - LLM_MODEL=${LLM_MODEL:-deepseek-chat}
+    restart: unless-stopped
