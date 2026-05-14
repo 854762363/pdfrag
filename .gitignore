@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Runtime data (generated)
+data/chroma/
+data/cache/
+data/uploads/
+data/eval_report.json
+
+# Environment
+.env
+
+# BGE model download cache
+_bge_download/
