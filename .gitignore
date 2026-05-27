@@ -29,6 +29,11 @@ data/uploads/
 
 # Internal planning docs (not part of the project)
 plan.md
+.hermes/plans/
+
+# Personal scratch scripts (not project code)
+attr.py
+*.scratch.py
 
 # BGE model download cache
 _bge_download/
